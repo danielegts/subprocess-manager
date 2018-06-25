@@ -3,11 +3,8 @@ import subprocess
 import logging
 
 class SubprocessManager(object):
-    def __init__(self, logger=None):
-        if logger is not None:
+    def __init__(self, logger=logging.Logger):
             self.logger = logger
-        else:
-            self.logger = logging.Logger
 
     def execute(self, command):
         try:
