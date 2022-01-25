@@ -5,4 +5,4 @@
 __author__ = """Daniele Turato"""
 __email__ = 'daniele.turato@siav.it'
 __version__ = '0.1.0'
-from subprocess_manager import SubprocessManager
+from .subprocess_manager import SubprocessManager
